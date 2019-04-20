@@ -1,4 +1,4 @@
-package SimpleFactory;
+package simpleFactory;
 
 public class ProductA implements AbstractProduct{
     @Override

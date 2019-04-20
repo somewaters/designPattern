@@ -1,4 +1,4 @@
-package SimpleFactory;
+package simpleFactory;
 
 import java.util.HashMap;
 import java.util.Map;

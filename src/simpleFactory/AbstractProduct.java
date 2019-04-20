@@ -1,4 +1,4 @@
-package SimpleFactory;
+package simpleFactory;
 
 interface AbstractProduct {
 
