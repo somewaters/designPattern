@@ -27,5 +27,16 @@ public class ProductFactory {
         return productMap.get(param);
     }
 
+    public  static AbstractProduct createProductWithIfElse(String param){
+        if("A".equals(param)){
+            return  new ProductA();
+        }else if("B".equals(param)){
+            new ProductB();
+        }else{
+            new ProductC();
+        }
+        return null;
+    }
+
 
 }
